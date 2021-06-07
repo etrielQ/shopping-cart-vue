@@ -35,7 +35,7 @@ const items = [
     id: 5,
     name: "Winter Parka ",
     price: 230.5,
-    category: "Jacket",
+    category: "Jackets",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit.Accusantium, perferendis beatae. Perspiciatis necessitatibus autem possimus eaque quibusdam magnam incidunt tenetur?",
   },

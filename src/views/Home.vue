@@ -2,8 +2,14 @@
   <div class="home">
     Home Component
     {{ items }}
+    <br />
+    <br />
     <div class="product-cards-container">
-      <ProductSummaryCard />
+      <ProductSummaryCard
+        v-for="product in items"
+        :key="product.id"
+        :product="product"
+      />
     </div>
   </div>
 </template>
